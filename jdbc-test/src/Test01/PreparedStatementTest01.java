@@ -13,7 +13,7 @@ public class PreparedStatementTest01 {
         ResultSet rs = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bjpowernode","root","150798777278x");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bjpowernode","root","1507");
             String sql = "select * from dept2";
             ps = conn.prepareStatement(sql);
             rs = ps.executeQuery();
