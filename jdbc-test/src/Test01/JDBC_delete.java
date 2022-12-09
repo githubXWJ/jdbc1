@@ -16,7 +16,7 @@ public class JDBC_delete {
         try {
             java.sql.Driver driver = new com.mysql.jdbc.Driver();
             DriverManager.registerDriver(driver);
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bjpowernode","root","150798777278x");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bjpowernode","root","x");
             sta = conn.createStatement();
             String sql = "delete from dept2 where deptno=80";
             int count = sta.executeUpdate(sql);
