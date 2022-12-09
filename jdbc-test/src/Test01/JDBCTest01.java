@@ -12,7 +12,7 @@ public class JDBCTest01{
 			//2.获取连接
 			String url = "jdbc:mysql://localhost:3306/bjpowernode";//URL统一资源定位符（网络中某个资源的绝对路径）
 			String user="root";
-			String password = "150798777278x";
+			String password = "x";
 			 conn = DriverManager.getConnection(url,user,password);
 			System.out.println("Connection="+conn);
 			//3.获取数据库操作对象(Statement专门执行SQL语句的)
