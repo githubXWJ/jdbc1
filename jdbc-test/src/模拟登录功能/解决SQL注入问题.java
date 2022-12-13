@@ -42,7 +42,7 @@ public class 解决SQL注入问题 {
             //1.注册驱动
             Class.forName("com.mysql.jdbc.Driver");
             //2.获取连接
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bjpowernode","root","150798777278x");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bjpowernode","root","x");
             //System.out.println("Connection="+conn);
             //3.获取预编译的数据库操作对象()
             String sql = "select username,password from login1 where username=? and password=?";
