@@ -21,7 +21,7 @@ public class DBUtil {
 
 
     public static Connection getConnection() throws SQLException{
-          Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bjpowernode","root","150798777278x");
+          Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bjpowernode","root","x");
           return conn;
     }
 
